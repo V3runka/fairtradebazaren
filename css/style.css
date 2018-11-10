@@ -99,7 +99,7 @@
 }*/
 
 .bluesection {
-    background-color: cadetblue;
+    background-color: #325E4C;
     height: 400px;
     position: relative;
 }
@@ -115,7 +115,7 @@
 }
 
 .yellowsection {
-    background-color: darkorange;
+    background-color: #D1A63B;
     height: 400px;
     position: relative;
 }
@@ -131,7 +131,7 @@
 }
 
 .brownsection {
-    background-color: chocolate;
+    background-color: #9B5E34;
     height: 400px;
     position: relative;
 }
@@ -146,9 +146,8 @@
     transform: translateY(-57%);
 }
 
-
 .footer {
-    background-color: fuchsia;
+    background-color: #325E4C;
     width: 100%;
     position: relative;
     height: 400px;
