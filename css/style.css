@@ -63,14 +63,6 @@
     margin: 6px 0;
 }
 
-/*.no-webp .elementWithBackgroundImage {
-    background-image: url("image.jpg");
-}
-
-.webp .elementWithBackgroundImage {
-    background-image: url("image.webp");
-}*/
-
 .content {}
 
 .greensection {
@@ -87,16 +79,6 @@
     left: 0;
     transform: translateY(-98%);
 }
-
-/*.greensection::before {
-    content: url(../images/mountains.svg);
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 7px;
-    left: 0;
-    transform: translateY(-100%);
-}*/
 
 .bluesection {
     background-color: #325E4C;
@@ -146,15 +128,11 @@
     transform: translateY(-57%);
 }
 
-<<<<<<< HEAD
 /*iframe {
     width: 100%;
     height: 200px;
 }*/
 
-
-=======
->>>>>>> master
 .footer {
     background-color: #325E4C;
     width: 100%;
