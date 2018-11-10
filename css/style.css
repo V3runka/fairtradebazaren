@@ -99,6 +99,7 @@
 }*/
 
 .bluesection {
+    background-color: #325E4C;
     height: 400px;
     position: relative;
 }
@@ -114,6 +115,7 @@
 }
 
 .yellowsection {
+    background-color: #D1A63B;
     height: 400px;
     position: relative;
 }
@@ -129,6 +131,7 @@
 }
 
 .brownsection {
+    background-color: #9B5E34;
     height: 400px;
     position: relative;
 }
@@ -153,6 +156,7 @@
 =======
 >>>>>>> master
 .footer {
+    background-color: #325E4C;
     width: 100%;
     position: relative;
     padding-top: 10rem;
