@@ -139,7 +139,7 @@
     position: relative;
     padding-top: 10rem;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .footer::before {
@@ -152,7 +152,35 @@
     transform: translateY(-57%);
 }
 
+.newsletter {
+    margin: 0 auto;
+    height: 1.2rem;
+}
+
+.newsletterwindow {
+    padding: 0.1rem 0.5rem;
+    border-radius: 15px;
+    border: none;
+}
+
+.newsletter-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.footericons {
+    display: flex;
+    flex-direction: row;
+}
+
 .iconfacebook {
+    width: 2rem;
+    height: auto;
+}
+
+.fairtradelogosmall {
     width: 2rem;
     height: auto;
 }
