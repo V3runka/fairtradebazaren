@@ -156,18 +156,18 @@ body {
 }
 
 .openinghours {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 6.5rem;
+    margin: 4rem 6.5rem;
+    padding: 0
 }
 
-.openinghours ol {
+.openinghours li {
     list-style-type: none;
     padding: 0;
-    margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-between;
 }
 
-.openinghours ol:first-of-type {
+.openinghours .day {
     color: #D1A63B;
 }
 
