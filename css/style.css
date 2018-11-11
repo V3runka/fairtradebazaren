@@ -1,9 +1,18 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+}
+
+.header {
+    position: relative;
 }
 
 .navbar-desktop {
     display: none;
+}
+
+.navbar-mobile-wrapper {
+    position: absolute;
+    width: 100%;
 }
 
 .navbar-mobile {
@@ -23,7 +32,7 @@ body {
     display: none;
     z-index: 2;
     width: 100%;
-    border-radius: 0 0 9px 9px;
+    border-radius: 9px;
 }
 
 .navbar-list li:first-of-type {
@@ -56,23 +65,32 @@ body {
 }
 
 .burgermenu:hover + .navbar-list,
-.burgermenu:active + .navbar-list {
+.burgermenu:active + .navbar-list,
+.navbar-list:hover {
     display: block;
 }
 
 .burgermenu-line {
     width: 100%;
     height: 5px;
-    background-color: black;
+    background-color: white;
     margin: 6px 0;
 }
 
-.content {}
+.header-title {
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20%;
+}
 
 .greensection {
     background-color: #365B3E;
     position: relative;
-    padding-bottom: 7rem;
+    padding-bottom: 6rem;
 }
 
 .mountains {
@@ -85,15 +103,25 @@ body {
 }
 
 .greensection p {
+    color: #5A8461;
     text-align: center;
     margin: 0 3rem;
-    font-size: 2rem;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.greensection h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0.3rem;
+    font-size: 1.5rem;
 }
 
 .bluesection {
     background-color: #325E4C;
-    height: 400px;
     position: relative;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
 }
 
 .bluesection::before {
@@ -106,10 +134,73 @@ body {
     transform: translateY(-50%);
 }
 
+.bluesection h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 0 3rem 0.6rem 3rem;
+}
+
+.bluesection p {
+    color: #5A8461;
+    text-align: center;
+    margin: 0.3rem;
+    font-size: 1rem;
+    padding: 0 2.8rem 1rem 2.8rem;
+}
+
+.bluesection h3 {
+    color: #fff;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-color: #5A8461;
+    border-radius: 10px;
+}
+
+.bluesection h4 {
+    color: #5A8461;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.coffee img {
+    width: 5rem;
+}
+
+.1piccoffee {
+    justify-content: center;
+}
+
+.coffee h5 {
+    text-align: center;
+    text-align-last: center;
+    font-size: 2em;
+    color: white;
+}
+
+.betweencoffee h5 {
+    align-self: center;
+}
+
+.coffee {
+    display: flex;
+    justify-content: space-around;
+}
+
 .yellowsection {
     background-color: #D1A63B;
-    height: 400px;
     position: relative;
+    padding: 10rem 0 7rem 0;
+    background-image: url(../images/africa.svg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position: 90% 10%;
 }
 
 .yellowsection::before {
@@ -122,14 +213,55 @@ body {
     transform: translateY(-57%);
 }
 
-.brownsection {
+.fortythree {
+    margin-bottom: 8rem;
+    margin-left: auto;
+    margin-right: 5%;
+    width: 185px;
+}
+
+.fortythree span {
+    font-size: 4rem;
+    color: #7C2219;
+}
+
+.fortythree p {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 0;
+
+}
+
+.graduation-hat-icon {
+    margin-left: 1rem;
+    width: 12rem;
+}
+
+.twentysix {
+    margin-right: auto;
+    margin-left: auto;
+    width: 170px;
+}
+
+.twentysix span {
+    font-size: 3rem;
+}
+
+.twentysix p {
+    font-size: 1.6rem;
+    line-height: 1.35;
+    margin: 0;
+    color: #7C2219;
+}
+
+#brownsection {
     background-color: #9B5E34;
     position: relative;
     padding-top: 6rem;
     padding-bottom: 11rem;
 }
 
-.brownsection::before {
+#brownsection::before {
     content: url(../images/mountains4.svg);
     width: 100%;
     height: auto;
@@ -139,44 +271,41 @@ body {
     transform: translateY(-57%);
 }
 
-.brownsection h3 {
+#brownsection h3 {
     color: black;
     font-size: 2rem;
     padding-left: 2rem;
     margin-bottom: 0;
     line-height: 1.3;
+    font-family: 'Permanent Marker', cursive;
 }
 
-.brownsection h2 {
+#brownsection h2 {
     color: #D1A63B;
-    font-size: 3rem;
+    font-size: 3.1rem;
     padding-left: 4rem;
-    margin-bottom: 1.8rem;
+    margin-bottom: 0;
     line-height: 1;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .openinghours {
-    margin: 3rem 6.5rem;
-    padding: 0
+    margin: 2rem auto 3rem auto;
+    padding: 0;
+    width: 240px;
 }
 
 .openinghours li {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    font-size: 1.3rem;
+    color: white;
 }
 
 .openinghours .day {
     color: #D1A63B;
-}
-
-.openinghours ol:last-of-type {
-    color: white;
-}
-
-.openinghours li {
-    font-size: 1.3rem;
+    width: 60%;
 }
 
 .map {
@@ -190,7 +319,7 @@ body {
     width: 100%;
 }
 
-.brownsection p {
+#brownsection p {
     text-align: center;
     margin: 0 3rem;
     font-size: 2rem;
