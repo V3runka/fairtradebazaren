@@ -137,7 +137,7 @@
     background-color: #325E4C;
     width: 100%;
     position: relative;
-    padding-top: 10rem;
+    padding-top: 5rem;
     display: flex;
     flex-direction: column;
 }
@@ -152,14 +152,23 @@
     transform: translateY(-57%);
 }
 
+.newsletterdescription {
+    font-size: 1.4rem;
+    color: white;
+    text-align: center;
+    margin: 3rem 1.8rem 2rem 1.8rem;
+}
+
 .newsletter {
     margin: 0 auto;
-    height: 1.2rem;
+    margin-bottom: 2.5rem;
 }
 
 .newsletterwindow {
-    padding: 0.1rem 0.5rem;
-    border-radius: 15px;
+    width: 17.5rem;
+    height: 2.2rem;
+    padding: 0.1rem 1rem;
+    border-radius: 20px;
     border: none;
 }
 
@@ -173,6 +182,8 @@
 .footericons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1.8rem 1rem 1.8rem;
 }
 
 .iconfacebook {
