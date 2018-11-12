@@ -105,7 +105,8 @@ h2 {
     color: #5A8461;
     justify-content: center;
     text-align: center;
-    padding: 3em, 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Permanent Marker', cursive;
 
@@ -121,7 +122,7 @@ h4 {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5em;
     text-align: center;
-    color: white;
+    color: #325E4C;
     line-height: 1em;
 
 }
@@ -131,8 +132,8 @@ h5 {
     text-align: center;
     color: white;
     line-height: 1em;
-    padding: 0.9em;
-    padding-bottom: 10em;
+    padding: 0em 4em;
+    padding-bottom: 1em;
     font-family: 'Amatic SC', cursive;
     font-family: 'Permanent Marker', cursive;
 
@@ -222,32 +223,32 @@ article {
 
 #eat h4 {
     padding: 1.2em 1.5em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 #wear h4 {
     padding: 1.2em 1em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 #play h4 {
     padding: 1.2em 1.2em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 #home h4 {
     padding: 1.2em 0.9em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 #others h4 {
     padding: 1.65em 0.4em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 #all h4 {
     padding: 1.65em 1.5em;
-    border: 0.1em solid white;
+    border: 0.1em solid #325E4C;
 }
 
 
@@ -258,10 +259,82 @@ article {
     transform: translate(-50%, -50%);
 }*/
 
-/*.brownsection {
+.brownsection {
     background-color: #9B5E34;
-    height: 400px;
+    height: auto;
     position: relative;
+}
+
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 2em, 0em;
+    padding-top: 1em;
+}
+
+#products img {
+    width: 120px;
+    height: 120px;
+    max-width: 100%;
+}
+
+#products h6,
+#products p {
+    text-align: center;
+}
+
+h6 {
+    font-size: 1.5em;
+    color: white;
+    padding-top: 0.3em;
+}
+
+#material {
+    font-size: 0.7em;
+    padding-top: 0.3em;
+}
+
+#prize {
+    font-size: 0.7em;
+    padding: 0em;
+    color: #5A8461;
+}
+
+#country {
+    font-size: 0.7em;
+    padding: 0em;
+    color: #5A8461;
+}
+
+#scarf,
+#socks,
+#shoes {
+    width: 120px;
+    padding: 0em, 4em;
+    padding-bottom: 1.5em;
+
+}
+
+#scarf-text,
+#socks-text,
+#shoes-text {
+    border-left: 0.3em solid #5A8461;
+    border-right: 0.3em solid #5A8461;
+    border-bottom: 0.3em solid #5A8461;
+    line-height: 0.9em;
+}
+
+#prize {
+    justify-content: flex-start;
+
+}
+
+#country {
+    justify-content: flex-end;
+    font-size: 0.5em;
+
 }
 
 .brownsection::before {
@@ -272,7 +345,29 @@ article {
     top: 7px;
     left: 0;
     transform: translateY(-57%);
+}
+
+/*#backk {
+    padding: 1em, 1em;
+    font-size: 0.8em;
+    text-align: center;
+    display: block;
+    border: 0.2em solid #5A8461;
 }*/
+
+#backk h6 {
+
+    color: darkgreen;
+    background-color: white;
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 0.7rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    border-radius: 12px;
+    margin-bottom: 8rem;
+
+}
 
 .footer {
     background-color: #325E4C;
@@ -305,13 +400,13 @@ article {
     margin-bottom: 2.5rem;
 }
 
-/*.newsletterwindow {
-    width: 17.5rem;
+.newsletterwindow {
+    width: 13.5rem;
     height: 2.2rem;
     padding: 0.1rem 1rem;
     border-radius: 20px;
     border: none;
-}*/
+}
 
 .newsletter-btn {
     background-color: transparent;
