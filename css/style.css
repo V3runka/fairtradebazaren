@@ -2,6 +2,12 @@ body {
     font-weight: 700;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Permanent Marker', cursive;
+}
+
 .header {
     position: relative;
 }
@@ -159,6 +165,10 @@ body {
     padding: 0.4rem;
     background-color: #5A8461;
     border-radius: 10px;
+}
+
+.bluesection a {
+    color: white;
 }
 
 .bluesection h4 {
