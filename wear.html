@@ -11,15 +11,34 @@
 
     <link href="css/reboot.css" rel="stylesheet">
     <link href="css/wear.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=East+Sea+Dokdo" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Source+Sans+Pro:300,400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="css/navbar.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300i,400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 
 <body>
+    <div class="navbar-mobile-wrapper">
+        <nav class="navbar-mobile">
+            <a href="index.html"><img class="fairtradelogo" src="images/ftd-logo.svg" alt="Fair Trade logo"></a>
+            <button type="button" id="menu-button" class="burgermenu">
+                <div class="burgermenu-line"></div>
+                <div class="burgermenu-line"></div>
+                <div class="burgermenu-line"></div>
+            </button>
+            <ol id="navbar-list" class="navbar-list">
+
+                <li>
+                    <a href="products.html">PRODUCTS</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT FAIRTRADE</a>
+                </li>
+                <li>
+                    <a href="#brownsection">CONTACT</a>
+                </li>
+            </ol>
+        </nav>
+    </div>
     <header class="header">
         <nav class="navbar-desktop">
             <ol class="navbar-list">
@@ -36,41 +55,21 @@
                     <a href="#">JOIN US</a>
                 </li>
                 <li>
-                    <a href="contact.html">CONTACT</a>
+                    <a href="#brownsection">CONTACT</a>
                 </li>
             </ol>
         </nav>
-        <nav class="navbar-mobile">
-            <div class="burgermenu">
-                <div class="burgermenu-line"></div>
-                <div class="burgermenu-line"></div>
-                <div class="burgermenu-line"></div>
-            </div>
-            <ol class="navbar-list">
-
-                <li>
-                    <a href="products.html">PRODUCTS</a>
-                </li>
-                <li>
-                    <a href="#">ABOUT FAIRTRADE</a>
-                </li>
-                <li>
-                    <a href="contact.html">CONTACT</a>
-                </li>
-            </ol>
-        </nav>
+        <h1 class="header-title">
+            WELCOME <br> TO FAIR TRADE BAZAREN
+        </h1>
         <picture>
-
             <source media="(min-width: 1024px)" srcset="images/shop1920.webp" type="image/webp">
             <source media="(min-width: 1024px)" srcset="images/shop1920.jpg" type="image/jpeg">
             <source media="(min-width: 768px)" srcset="images/shop1024.webp" type="image/webp">
             <source media="(min-width: 768px)" srcset="images/shop1024.jpg" type="image/jpeg">
             <source media="(min-width: 414px)" srcset="images/shop768.webp" type="image/webp">
             <source media="(min-width: 414px)" srcset="images/shop768.jpg" type="image/jpeg">
-            <section id="banner">
-                <img src="images/pictures/banner-products.jpg" alt="Photo of Fair Trade Bazaren shop-products" style="width:100%;">
-                <h1>To WEAR</h1>
-            </section>
+            <img src="images/shop414.jpg" alt="Photo of Fair Trade Bazaren shop" style="width:100%;">
         </picture>
     </header>
     <div class="page-container">
