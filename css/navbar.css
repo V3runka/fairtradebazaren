@@ -111,6 +111,7 @@
         flex-direction: row;
         font-size: 1.3rem;
         margin: 0 45px 0 0;
+        list-style-type: none;
     }
 
     .navbar-desktop li {
