@@ -9,12 +9,6 @@ h3 {
     font-family: 'Permanent Marker', cursive;
 }
 
-#banner {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
 .header-title {
     position: absolute;
     color: white;
@@ -23,15 +17,9 @@ h3 {
     top: 50%;
     transform: translate(-50%, -50%);
     left: 50%;
-    font-size: 1.6rem;
+    font-size: 2rem;
     padding-bottom: 20px;
     min-width: 230px;
-}
-
-.greensection {
-    background-color: #D1A63B;
-    position: relative;
-    padding-bottom: 3.5rem;
 }
 
 .mountains {
@@ -43,151 +31,106 @@ h3 {
     transform: translateY(-98%);
 }
 
-.bluesection {
-    background-color: #325E4C;
+.greensection {
+    background-color: #B2D3B9;
     position: relative;
-    padding-top: 7rem;
-    padding-bottom: 8rem;
+    padding: 2rem 0 8rem 0;
     text-align: center;
 }
 
-.bluesection::before {
-    content: "";
-    background-image: url(../images/mountains2.svg);
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    top: 7px;
-    left: 0;
-    transform: translateY(-63%);
+.greensection p {
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+    margin: 0 15px;
+    color: #5A8461;
+    font-weight: 600;
 }
 
-.yellowsection {
-    background-color: #D1A63B;
-    position: relative;
-    padding: 14.3rem 0 8rem 0;
-}
-
-.yellowsection::before {
-    content: "";
-    background-image: url(../images/mountains3.svg);
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    top: 7px;
-    left: 0;
-    transform: translateY(-57%);
-}
-
-#products-nav-mobile img {
+.planet {
     width: 150px;
-    height: 150px;
-    max-width: 100%;
-    padding: 0.5em;
-    opacity: 1;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
-#banner img {
-    opacity: 0.5;
+.farmers {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
-#products-nav-mobile img:hover {
-    opacity: 1;
+.heart-arrow {
+    width: 150px;
+    height: auto;
+    padding-bottom: 2rem;
 }
 
 .navbar-desktop-products {
     display: none;
 }
 
-.article {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
+#products-nav-mobile img {
+    width: 100%;
+    height: auto;
+    padding: 5px;
 }
 
 #products-nav-mobile {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-
+    width: 100%;
+    margin-bottom: 3rem;
 }
 
 #products-nav-mobile section {
     position: relative;
     text-align: center;
     color: white;
+    width: 100%;
+    max-width: 150px;
 }
 
-#products-nav-mobile h4 {
+#category h4 {
+    width: 78%;
+    height: 78%;
+    padding-top: 25%;
+    border: 1px solid white;
+    font-size: 1.5rem;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    margin: 0;
 }
 
-#eat h4 {
-    padding: 1.2em 1.5em;
-    border: 0.1em solid white;
+.see-our-suppliers-btn {
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-bottom: 3rem;
+    background-color: #5A8461;
+    border-radius: 55px;
+    font-size: 1.5rem;
+    display: inline-block;
+    line-height: 1;
+    text-decoration: none;
+    transition: background 190ms ease, color 190ms ease;
 }
 
-#wear h4 {
-    padding: 1.2em 1em;
-    border: 0.1em solid white;
+.see-our-suppliers-btn:hover {
+    color: #5A8461;
+    background-color: white;
+    text-decoration: none;
 }
 
-#play h4 {
-    padding: 1.2em 1.2em;
-    border: 0.1em solid white;
+#products-nav-mobile a {
+    color: white;
 }
 
-#home h4 {
-    padding: 1.2em 0.9em;
-    border: 0.1em solid white;
-}
-
-#others h4 {
-    padding: 1.65em 0.4em;
-    border: 0.1em solid white;
-}
-
-#all h4 {
-    padding: 1.65em 1.5em;
-    border: 0.1em solid white;
-}
-
-#brownsection {
-    background-color: #9B5E34;
-    position: relative;
-    height: 400px;
-    padding-top: 6rem;
-    padding-bottom: 11rem;
-}
-
-#brownsection::before {
-    content: "";
-    background-image: url(../images/mountains4.svg);
-    background-repeat: repeat-x;
-    background-size: auto 100%;
-    width: 100%;
-    height: 200px;
-    position: absolute;
-    top: 7px;
-    left: 0;
-    transform: translateY(-57%);
-}
-
-.heartbrownsection {
-    width: 4rem;
-    height: auto;
+.icons-together {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.5rem;
 }
 
 .footer {
@@ -258,7 +201,21 @@ h3 {
     height: auto;
 }
 
-@media only screen and (min-width: 320px) {
-    h2 {}
+@media (min-width: 500px) {
+    .header-title {
+        font-size: 2.5rem;
+    }
 
+}
+
+@media (min-width: 768px) {
+    .header-title {
+        font-size: 3rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-title {
+        font-size: 4rem;
+    }
 }
