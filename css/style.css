@@ -476,147 +476,148 @@ h3 {
     .brownsection h2 {
         padding-left: 9rem;
     }
+}
 
-    @media (min-width: 768px) {
-        .header-title {
-            font-size: 3rem;
-            padding-bottom: 45px
-        }
-
-        .greensection p {
-            margin: 0 45% 0 10%;
-            padding-bottom: 100px;
-            position: relative;
-        }
-
-        .greensection p:nth-of-type(2) {
-            margin: 0 10% 0 45%;
-        }
-
-        .greensection-fair-text::after {
-            content: url(../images/scales.svg);
-            position: absolute;
-            width: 170px;
-            top: -60px;
-            left: 115%;
-        }
-
-        .greensection-equal-text::after {
-            content: url(../images/hands.svg);
-            position: absolute;
-            width: 170px;
-            top: -20px;
-            left: -60%;
-        }
-
-        .greensection-sustainable-text::after {
-            content: url(../images/world.svg);
-            position: absolute;
-            width: 170px;
-            top: -20px;
-            left: 115%;
-        }
-
-        .yellowsection {
-            justify-content: center;
-            background-position: 73% 40%;
-        }
-
-        .fortythree {
-            margin-left: 10%;
-            margin-right: 0;
-        }
-
-        .twentysix {
-            margin-right: 10%;
-            margin-left: 0;
-            width: 220px;
-            margin-top: 10rem;
-        }
-
-        .brownsection h3 {
-            text-align: center;
-            padding-right: 25rem;
-        }
-
-        .brownsection h2 {
-            text-align: center;
-            padding-right: 20rem;
-        }
-
+@media (min-width: 768px) {
+    .header-title {
+        font-size: 3rem;
+        padding-bottom: 45px
     }
 
-    @media (min-width: 939px) {
-
-        .yellowsection {
-            background-position: 70% 40%;
-        }
+    .greensection p {
+        margin: 0 45% 0 10%;
+        padding-bottom: 100px;
+        position: relative;
     }
 
-    @media (min-width: 1024px) {
-        .header-title {
-            font-size: 3.5rem;
-            padding-bottom: 7%;
-            width: 620px;
-        }
-
-        .yellowsection {
-            background-position: 69% 40%;
-        }
-
-        .how-to-get-wrapper {
-            display: block;
-        }
-
-        .how-to-get-wrapper h2 {
-            padding: 2rem 0 2rem 0;
-            margin: 0 auto;
-        }
-
-        .how-to-get {
-            display: flex;
-            justify-content: space-around;
-            margin: 2rem 2% 7rem 2%;
-        }
-
-        .how-to-get section {
-            width: 20%;
-            min-width: 259px;
-        }
-
-        .how-to-get h3 {
-            font-size: 1.8rem;
-            text-align: center;
-            padding: 0 0 30px 0;
-        }
-
-        .how-to-get-icon {
-            width: 220px;
-            display: block;
-            margin: auto;
-        }
-
-        .how-to-get p {
-            font-size: 1.5rem;
-            text-align: center;
-            min-width: 259px;
-            margin: 0;
-        }
-
-        #better-planet {
-            color: cornsilk;
-        }
-
+    .greensection p:nth-of-type(2) {
+        margin: 0 10% 0 45%;
     }
 
-    @media (min-width: 1100px) {
-        .yellowsection {
-            background-position: 67% 40%;
-        }
+    .greensection-fair-text::after {
+        content: url(../images/scales.svg);
+        position: absolute;
+        width: 170px;
+        top: -60px;
+        left: 115%;
     }
 
-    @media (min-width: 1500px) {
-        .yellowsection {
-            background-position: 65% 40%;
-        }
+    .greensection-equal-text::after {
+        content: url(../images/hands.svg);
+        position: absolute;
+        width: 170px;
+        top: -20px;
+        left: -60%;
     }
+
+    .greensection-sustainable-text::after {
+        content: url(../images/world.svg);
+        position: absolute;
+        width: 170px;
+        top: -20px;
+        left: 115%;
+    }
+
+    .yellowsection {
+        justify-content: center;
+        background-position: 73% 40%;
+    }
+
+    .fortythree {
+        margin-left: 10%;
+        margin-right: 0;
+    }
+
+    .twentysix {
+        margin-right: 10%;
+        margin-left: 0;
+        width: 220px;
+        margin-top: 10rem;
+    }
+
+    .brownsection h3 {
+        text-align: center;
+        padding-right: 25rem;
+    }
+
+    .brownsection h2 {
+        text-align: center;
+        padding-right: 20rem;
+    }
+
+}
+
+@media (min-width: 939px) {
+
+    .yellowsection {
+        background-position: 70% 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header-title {
+        font-size: 3.5rem;
+        padding-bottom: 7%;
+        width: 620px;
+    }
+
+    .yellowsection {
+        background-position: 69% 40%;
+    }
+
+    .how-to-get-wrapper {
+        display: block;
+    }
+
+    .how-to-get-wrapper h2 {
+        padding: 2rem 0 2rem 0;
+        margin: 0 auto;
+    }
+
+    .how-to-get {
+        display: flex;
+        justify-content: space-around;
+        margin: 2rem 2% 7rem 2%;
+    }
+
+    .how-to-get section {
+        width: 20%;
+        min-width: 259px;
+    }
+
+    .how-to-get h3 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding: 0 0 30px 0;
+    }
+
+    .how-to-get-icon {
+        width: 220px;
+        display: block;
+        margin: auto;
+    }
+
+    .how-to-get p {
+        font-size: 1.5rem;
+        text-align: center;
+        min-width: 259px;
+        margin: 0;
+    }
+
+    #better-planet {
+        color: cornsilk;
+    }
+
+}
+
+@media (min-width: 1100px) {
+    .yellowsection {
+        background-position: 67% 40%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .yellowsection {
+        background-position: 65% 40%;
+    }
+}
