@@ -23,7 +23,7 @@ h3 {
 }
 
 .greensection {
-    background-color: #365B3E;
+    background-color: #365b3e;
     position: relative;
     padding-bottom: 3.5rem;
 }
@@ -38,7 +38,7 @@ h3 {
 }
 
 .greensection p {
-    color: #B2D3B9;
+    color: #b2d3b9;
     text-align: center;
     margin: 0 3rem;
     font-size: 1.4rem;
@@ -54,7 +54,7 @@ h3 {
 }
 
 .bluesection {
-    background-color: #325E4C;
+    background-color: #325e4c;
     position: relative;
     padding-top: 7rem;
     padding-bottom: 8rem;
@@ -62,7 +62,7 @@ h3 {
 }
 
 .bluesection::before {
-    content: "";
+    content: '';
     background-image: url(../images/mountains2.svg);
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -82,18 +82,19 @@ h3 {
 }
 
 .bluesection p {
-    color: #B2D3B9;
+    color: #b2d3b9;
     margin: 0.3rem;
     font-size: 1.4rem;
     line-height: 1.35;
     padding: 0 2.8rem 3rem 2.8rem;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .bluesection a {
     color: cornsilk;
     padding: 1rem 2rem 1.3rem 2rem;
     margin-bottom: 3rem;
-    background-color: #5A8461;
+    background-color: #5a8461;
     border-radius: 55px;
     font-size: 2rem;
     display: inline-block;
@@ -103,7 +104,7 @@ h3 {
 }
 
 .bluesection a:hover {
-    color: #5A8461;
+    color: #5a8461;
     background-color: cornsilk;
 }
 
@@ -130,7 +131,7 @@ h3 {
 }
 
 .yellowsection {
-    background-color: #D1A63B;
+    background-color: #d1a63b;
     position: relative;
     padding: 14.3rem 0 8rem 0;
     background-image: url(../images/africa.svg);
@@ -140,7 +141,7 @@ h3 {
 }
 
 .yellowsection::before {
-    content: "";
+    content: '';
     background-image: url(../images/mountains3.svg);
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -194,14 +195,14 @@ h3 {
 }
 
 .brownsection {
-    background-color: #9B5E34;
+    background-color: #b2d3b9;
     position: relative;
     padding-top: 6rem;
     padding-bottom: 11rem;
 }
 
 .brownsection::before {
-    content: "";
+    content: '';
     background-image: url(../images/mountains4.svg);
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -223,7 +224,7 @@ h3 {
 }
 
 .brownsection h2 {
-    color: #D1A63B;
+    color: #325e4c;
     font-size: 3.1rem;
     padding-left: 4rem;
     margin-bottom: 0;
@@ -233,8 +234,10 @@ h3 {
 
 .openinghours {
     margin: 2rem auto 3rem auto;
-    padding: 0;
+    padding: 1em;
+    background-color: #365b3e;
     width: 240px;
+    border-radius: 25px;
 }
 
 .openinghours li {
@@ -246,7 +249,7 @@ h3 {
 }
 
 .openinghours .day {
-    color: #D1A63B;
+    color: #b2d3b9;
     width: 60%;
 }
 
@@ -296,7 +299,7 @@ h3 {
 }
 
 .footer {
-    background-color: #325E4C;
+    background-color: #325e4c;
     width: 100%;
     position: relative;
     padding-top: 5rem;
@@ -305,7 +308,7 @@ h3 {
 }
 
 .footer::before {
-    content: "";
+    content: '';
     background-image: url(../images/mountains5.svg);
     background-repeat: repeat-x;
     background-size: auto 100%;
@@ -363,6 +366,15 @@ h3 {
     height: auto;
 }
 
+#better-planet {
+    color: #643e1e;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#contact-info {
+    display: none;
+}
+
 @media (min-width: 414px) {
     .header-title {
         font-size: 2rem;
@@ -397,18 +409,16 @@ h3 {
 }
 
 @media (min-width: 514px) {
-
     .bluesection h2 {
         width: 497px;
         margin: 0 auto;
     }
-
 }
 
 @media (min-width: 544px) {
     .header-title {
         font-size: 2.5rem;
-        padding-bottom: 33px
+        padding-bottom: 33px;
     }
 
     .greensection p {
@@ -430,12 +440,12 @@ h3 {
 
     .brownsection h3 {
         padding-left: 5rem;
+        color: white;
     }
 
     .brownsection h2 {
         padding-left: 7rem;
         margin-bottom: 3rem;
-        ;
         line-height: 1.5;
     }
 }
@@ -481,7 +491,7 @@ h3 {
 @media (min-width: 768px) {
     .header-title {
         font-size: 3rem;
-        padding-bottom: 45px
+        padding-bottom: 45px;
     }
 
     .greensection p {
@@ -544,11 +554,9 @@ h3 {
         text-align: center;
         padding-right: 20rem;
     }
-
 }
 
 @media (min-width: 939px) {
-
     .yellowsection {
         background-position: 70% 40%;
     }
@@ -563,6 +571,7 @@ h3 {
 
     .yellowsection {
         background-position: 69% 40%;
+        display: none;
     }
 
     .how-to-get-wrapper {
@@ -589,6 +598,7 @@ h3 {
         font-size: 1.8rem;
         text-align: center;
         padding: 0 0 30px 0;
+        color: white;
     }
 
     .how-to-get-icon {
@@ -602,12 +612,28 @@ h3 {
         text-align: center;
         min-width: 259px;
         margin: 0;
+        color: #365b3e;
     }
 
-    #better-planet {
-        color: cornsilk;
+    #contact-info {
+        display: block;
+        margin-bottom: 1.5em;
     }
 
+    #contact-info p {
+        display: block;
+        text-align: center;
+        font-size: 1.2em;
+        color: #365b3e;
+        margin-bottom: 0.8em;
+    }
+
+    #contact-info h1 {
+        display: block;
+        color: #365b3e;
+        text-align: center;
+        font-size: 2.5em;
+    }
 }
 
 @media (min-width: 1100px) {
