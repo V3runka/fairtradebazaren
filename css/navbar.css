@@ -89,6 +89,10 @@
     margin-top: 67px;
 }
 
+.header-image {
+    width: 100%;
+}
+
 @media (min-width: 1024px) {
     .navbar-mobile {
         display: none;
