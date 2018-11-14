@@ -31,6 +31,10 @@ h3 {
     transform: translateY(-98%);
 }
 
+.hide-mobile {
+    display: none;
+}
+
 .greensection {
     background-color: #B2D3B9;
     position: relative;
@@ -65,6 +69,10 @@ h3 {
 }
 
 .navbar-desktop-products {
+    display: none;
+}
+
+.product-grid {
     display: none;
 }
 
@@ -208,14 +216,210 @@ h3 {
 
 }
 
+@media (min-width: 617px) {
+    #products-nav-mobile section {
+        max-width: 200px;
+    }
+
+    .farmers {
+        height: 180px;
+    }
+}
+
 @media (min-width: 768px) {
     .header-title {
         font-size: 3rem;
     }
+
+}
+
+@media (min-width: 800px) {
+    #products-nav-mobile section {
+        max-width: 260px;
+    }
+
 }
 
 @media (min-width: 1024px) {
     .header-title {
         font-size: 4rem;
     }
+
+    #products-nav-mobile {
+        display: none;
+    }
+
+    .hide-desktop {
+        display: none;
+    }
+
+    .greensection {
+        padding-top: 0;
+    }
+
+    .introduction-text {
+        order: 2;
+    }
+
+    .farmers {
+        order: 4;
+    }
+
+    .planet {
+        margin: 0 auto;
+        height: 200px;
+        order: 3;
+    }
+
+    .heart-arrow {
+        margin: 0 auto;
+        height: 100px;
+        order: 1;
+        transform: translateY(-230px);
+    }
+
+    .intro-after-categories {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .navbar-desktop-products {
+        display: block;
+    }
+
+    .greensection {
+        background-color: #C0CEB6;
+        padding-bottom: 13rem;
+    }
+
+    .hide-mobile {
+        display: block;
+    }
+
+    .white-section {
+        background-color: white;
+        padding-top: 2rem;
+        padding-bottom: 20rem;
+    }
+
+    .intro-after-categories::before {
+        content: "";
+        background-image: url(../images/subpages/products/mountains-02.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+    }
+
+    .navbar-list-products {
+        list-style-type: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .navbar-list-products li {
+        display: block;
+        margin: 0 2rem;
+    }
+
+    .navbar-list-products a {
+        padding: 5px;
+        color: #5A8461;
+        font-size: 1.5rem;
+        font-family: 'Permanent Marker', cursive;
+    }
+
+    .category-icons {
+        height: 70px;
+        display: block;
+        margin: 2rem auto 0 auto;
+    }
+
+    .product-grid {
+        display: grid;
+        width: auto;
+        grid-column-gap: 10px;
+        grid-row-gap: 15px;
+        justify-content: center;
+        align-content: start;
+        grid-template-columns: 230px 230px 230px 230px;
+        grid-template-rows: 350px 350px 350px
+    }
+
+    .product {
+        border: 1px solid #95B599;
+    }
+
+    .product-photo {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .product span {
+        display: block;
+
+    }
+
+    .product-text-first {
+        color: #95B599;
+        padding-top: 0.5rem;
+        border-bottom: 2px solid #95B599;
+        font-weight: 600;
+        font-size: 1.2rem;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .product-text-last-two {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 2rem;
+    }
+
+    .see-our-suppliers-btn {
+        margin-top: 3rem;
+    }
+
+    .video-section {
+        background-color: #5A8461;
+        padding: 4rem 0 13rem 0;
+        position: relative;
+    }
+
+    .video-section::before {
+        content: "";
+        background-image: url(../images/subpages/products/mountains-03.svg);
+        background-repeat: repeat-x;
+        background-size: auto 100%;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 7px;
+        left: 0;
+        transform: translateY(-77%);
+    }
+
+    .video-section h2 {
+        text-align: center;
+        margin-bottom: 3rem;
+        color: white;
+    }
+
+    .video-making-of-products {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    }
+
+
 }
