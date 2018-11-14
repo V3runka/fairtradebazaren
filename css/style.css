@@ -193,14 +193,14 @@ h3 {
     margin-left: 4rem;
 }
 
-#brownsection {
+.brownsection {
     background-color: #9B5E34;
     position: relative;
     padding-top: 6rem;
     padding-bottom: 11rem;
 }
 
-#brownsection::before {
+.brownsection::before {
     content: "";
     background-image: url(../images/mountains4.svg);
     background-repeat: repeat-x;
@@ -213,7 +213,7 @@ h3 {
     transform: translateY(-57%);
 }
 
-#brownsection h3 {
+.brownsection h3 {
     color: black;
     font-size: 2rem;
     padding-left: 2rem;
@@ -222,7 +222,7 @@ h3 {
     font-family: 'Permanent Marker', cursive;
 }
 
-#brownsection h2 {
+.brownsection h2 {
     color: #D1A63B;
     font-size: 3.1rem;
     padding-left: 4rem;
@@ -274,11 +274,16 @@ h3 {
     width: 100%;
 }
 
-#brownsection p {
+.how-to-get-wrapper {
+    display: none;
+}
+
+.brownsection p {
     text-align: center;
     margin: 0 3rem;
     font-size: 2rem;
     display: block;
+    color: black;
 }
 
 .heartbrownsection {
@@ -419,15 +424,15 @@ h3 {
         margin: 0 auto;
     }
 
-    #brownsection {
+    .brownsection {
         padding-top: 10rem;
     }
 
-    #brownsection h3 {
+    .brownsection h3 {
         padding-left: 5rem;
     }
 
-    #brownsection h2 {
+    .brownsection h2 {
         padding-left: 7rem;
         margin-bottom: 3rem;
         ;
@@ -464,11 +469,11 @@ h3 {
         margin-top: 10rem;
     }
 
-    #brownsection h3 {
+    .brownsection h3 {
         padding-left: 7rem;
     }
 
-    #brownsection h2 {
+    .brownsection h2 {
         padding-left: 9rem;
     }
 
@@ -529,12 +534,12 @@ h3 {
             margin-top: 10rem;
         }
 
-        #brownsection h3 {
+        .brownsection h3 {
             text-align: center;
             padding-right: 25rem;
         }
 
-        #brownsection h2 {
+        .brownsection h2 {
             text-align: center;
             padding-right: 20rem;
         }
@@ -558,6 +563,50 @@ h3 {
         .yellowsection {
             background-position: 69% 40%;
         }
+
+        .how-to-get-wrapper {
+            display: block;
+        }
+
+        .how-to-get-wrapper h2 {
+            padding: 2rem 0 2rem 0;
+            margin: 0 auto;
+        }
+
+        .how-to-get {
+            display: flex;
+            justify-content: space-around;
+            margin: 2rem 2% 7rem 2%;
+        }
+
+        .how-to-get section {
+            width: 20%;
+            min-width: 259px;
+        }
+
+        .how-to-get h3 {
+            font-size: 1.8rem;
+            text-align: center;
+            padding: 0 0 30px 0;
+        }
+
+        .how-to-get-icon {
+            width: 220px;
+            display: block;
+            margin: auto;
+        }
+
+        .how-to-get p {
+            font-size: 1.5rem;
+            text-align: center;
+            min-width: 259px;
+            margin: 0;
+        }
+
+        #better-planet {
+            color: cornsilk;
+        }
+
     }
 
     @media (min-width: 1100px) {
