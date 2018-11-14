@@ -224,11 +224,19 @@ h3 {
     .farmers {
         height: 180px;
     }
+
+    #category h4 {
+        padding-top: 29%;
+    }
 }
 
 @media (min-width: 768px) {
     .header-title {
         font-size: 3rem;
+    }
+
+    #category h4 {
+        padding-top: 31%;
     }
 
 }
